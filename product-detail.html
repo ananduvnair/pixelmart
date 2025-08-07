@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-tertiary border-bottom ">
+    <div class="container-fluid">
+      <a class="navbar-brand text-dark fw-bold fs-3" href="./index.html">PixelMart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 nav1 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+          <li class="nav-item"><a class="nav-link text-light btn btn-outline-dark " href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-light btn btn-outline-dark " href="product-list.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link text-light btn btn-outline-dark " href="signup.html">Sign Up</a></li>
+          <li class="nav-item"><a class="nav-link text-light btn btn-outline-dark " href="signin.html">Sign In</a></li>
+          <li class="nav-item"><a class="nav-link text-light btn btn-outline-dark " href="cart-summary.html"><i class="fa-solid fa-cart-shopping me-2"></i>Cart</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="./images/zx1.jpg" class="img-fluid rounded" alt="Wireless Headphones">
+      </div>
+      <div class="col-md-6">
+        <h2>PIXUS (AMD DDR4)</h2>
+        <p class="lead">₹67,900.00</p>
+        <p><h6>-CHASSIS </h6>
+          DEFENDER ZX1 WHITE WITH 4 ARGB FANS<br>
+          <h6>-Processor </h6>
+
+          AMD RYZEN5 5600X (UPTO 4.6 GHz, 6 CORES,12 THREADS)<br>
+
+          <h6>-Motherboard</h6>
+            GIGABYTE B550M AORUS ELITE WITH WIFI AND BLUETOOTH<br>
+          <h6>-RAM</h6>
+            16GB 3200 MHz DDR4 (CORSAIR/G.SKILL)<br>
+
+         <h6> -GRAPHICS CARD</h6>
+
+            NVIDIA RTX 3050 6GB GDDR6 Dual Fan (Gigabyte or equivalent)<br>
+            
+         <h6> -PRIMARY STORAGE</h6>
+
+                1TB WESTERN DIGITAL SN770 BLACK GEN 4 UPTO 5150 MB/s NVMe M.2 <br>
+            
+      
+            
+          <h6>-POWER SUPPLY</h6>
+            
+                COOLER MASTER MWE 750 V2 80 PLUS BRONZE ATX3.1.</p>
+        <form>
+          <div class="mb-3">
+            <label for="qty" class="form-label fw-bold fs-4">Quantity</label>
+            <input type="number" class="form-control w-25" id="qty" value="1" min="1">
+          </div>
+          <a href="cart-summary.html" class="btn btn-dark">Add to Cart</a>
+        </form>
+      
+      </div>
+    </div>
+   
+  </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* signup css */
+body{
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  
+}
+.container2{
+    margin-top: 150px;
+    background-color: #d7f3ff;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, );
+}
+.button1 {
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2em;
+  max-width: 100%;
+  height: 50px;
+  min-width: 220px;
+  padding: 5px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-left: 120px;
+}
+.button1:active,
+.button1:hover {
+  outline: 0;
+  transform: scale(1.1);
+}
+.button1:active {
+  transform: scale(0.9);
+}
+
+
+.neon-text {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+}
+
+.hero-sec{
+
+background-image: linear-gradient(to right top, #00dbab, #00c6e5, #00a5fe, #8976dc, #c0408b);
+backdrop-filter: blur(10px);
+}
+.nav1{
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  gap: 10px;
+  
+}
+.cen{
+  margin-left: 120px;
+}
+.main-c{
+  margin-top: 200px;
+}
